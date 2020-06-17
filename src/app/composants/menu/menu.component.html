@@ -1,0 +1,16 @@
+<ul>
+    <li>
+        <a routerLink='' routerLinkActive=active [routerLinkActiveOptions]="{ exact: true }"> Accueil </a>
+    </li>
+    <li routerLinkActive=active>
+        <!-- <a routerLink='{{ lienStagiaire }}'> Stagiaire </a> -->
+        <!-- <a [routerLink]='lienStagiaire'> Stagiaire </a> -->
+        <a [routerLink]="['/cours/stagiaire',param1,param2]"> Stagiaire </a>
+    </li>
+    <li routerLinkActive=active>
+        <!-- <a routerLink='adresse'> Adresse </a> -->
+        <a [routerLink]="['/cours/adresse']" [queryParams]="{ ville: 'Marseille', codepostal: '13000', rue: 'paradis'}">
+       Adresse 
+    </a>
+    </li>
+</ul>

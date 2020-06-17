@@ -1,0 +1,7 @@
+<h2>Calculette</h2>
+Valeur 1 : <input type=number [(ngModel)]=value1 required> Valeur 2 : <input type=number [(ngModel)]=value2 required>
+<button (click)="calcul('+')">+</button><br>
+<button (click)="calcul('-')">-</button><br>
+<button (click)="calcul('*')">*</button><br>
+<button (click)="calcul('/')">/</button><br> Résultat :
+<input type=number readonly [value]=resultat>
