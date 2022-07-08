@@ -32,6 +32,7 @@
             </form>
         </li>
         <ng-template #deconnection>
+            Bonjour {{ utilisateur.prenom | titlecase }} {{ utilisateur.nom | uppercase }}
             <button class="btn" (click)="seDeconnecter()">
                 <i class="fas fa-sign-out-alt"></i>
             </button>

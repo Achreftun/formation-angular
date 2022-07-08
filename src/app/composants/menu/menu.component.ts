@@ -19,6 +19,7 @@ export class MenuComponent implements OnInit {
       if (res.length > 0) {
         this.isConnected = true;
         const userString = JSON.stringify(res[0]);
+        this.utilisateur = res[0];
         localStorage.setItem('user', userString)
       }
     })
