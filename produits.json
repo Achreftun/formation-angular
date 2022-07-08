@@ -1,0 +1,23 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "designation": "écran curvé 45 pouces",
+      "prixUnitaire": 350,
+      "quantiteEnStock": 12,
+      "chemin": ""
+    },
+    {
+      "designation": "clavier",
+      "prixUnitaire": 15,
+      "quantiteEnStock": 250,
+      "id": 3
+    },
+    {
+      "designation": "vidéo-projecteur",
+      "prixUnitaire": 500,
+      "quantiteEnStock": 5,
+      "id": 4
+    }
+  ]
+}
